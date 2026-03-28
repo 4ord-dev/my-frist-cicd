@@ -8,4 +8,4 @@ def hello():
 
 @app.get("/add/{a}/{b}")
 def add(a: int, b: int):
-    return {"result": a - a + a + b}
+    return {"result": a + b}
