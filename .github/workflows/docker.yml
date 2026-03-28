@@ -1,9 +1,5 @@
 name: Build and Push Docker Image
 
-permissions:
-  contents: read
-  packages: write
-
 on:
   workflow_run:
     workflows: ["Build and Test"]
